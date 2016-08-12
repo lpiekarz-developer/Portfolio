@@ -1,0 +1,81 @@
+/* REGU£A nr 1 SELEKTOR:h1*/
+
+h1 {
+	font-family: verdana;
+	font-weight: bold;
+	font-style: italic;
+	font-size: x-large;
+	color: blue;
+	text-decoration: underline;
+	background-color: white;
+}
+
+h3 {
+	font-family: "Trebuchet MS";
+	color: green;
+}
+
+a:link{
+	color: blue;
+}
+
+a:visited{
+	color: purple;
+}
+
+a:hover{
+	color: white;
+	background-color: blue;
+}
+
+.kolor_lista{
+	color:green;
+}
+
+.nazwisko {
+	text-transform:uppercase;
+	/*CLASS HAS LOWER SPECIFCITY THAN ID, BECAUSE CLASS COULD BE DEFINED IN MANY ELEMENTS AND ID NOT*/
+}
+
+#stopka p{
+	color:grey;
+	letter-spacing:0.2em;
+	text-transform:lowercase;
+}
+
+#example_of_code p {
+	color: red;
+	font-weight: bold;
+}
+
+#lista ul {
+	color: black;
+	line-height: 175%;
+}
+
+#next_page a {
+	text-decoration: none;
+	font-family: "Trebuchet MS";
+}
+
+body {
+	font-family: arial;
+	/*background-image:url(D:\£ukasz\I_think\Cipki\Asia\Asia.jpg);*/
+	color: grey;
+	background-color: #e2edff;
+	line-height: 125%;
+	padding: 75px;
+}
+
+p {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 125%;
+	color: orange;
+}
+
+li {
+	font-size: large;
+	color: navy;
+}

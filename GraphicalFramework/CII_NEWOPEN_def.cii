@@ -1,0 +1,13 @@
+Component:decl { CII_NEWOPEN [12;24]
+
+Parameter:decl IPAR :int = 32;
+
+Interface:area AREA_MEM :IR[12; 24; 36];
+Interface:bits BITS :RO[12; 24];
+
+Constant :publ LENGTH :int = 24;
+
+Symblist :publ LIST_INTERF_COML = {CIISIG; CIIREG; LOWVAL; HIGHVAL; CIIVAL; EXTSIG; EXTREG; CIIEXTSIG; CIIEXTREG};
+
+Function :publ FUNC_INTERF_COML_CII('arg) = ('arg==CIISYS.LIST_INTERF_COML|CIISIG    || 'arg==CIISYS.LIST_INTERF_COML|CIIREG 					       || 'arg==CIISYS.LIST_INTERF_COML|CIIEXTSIG || 'arg==CIISYS.LIST_INTERF_COML|CIIEXTREG);
+}

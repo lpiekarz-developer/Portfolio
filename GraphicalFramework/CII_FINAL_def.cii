@@ -1,0 +1,27 @@
+Component:decl { CII_FINAL [16;32]
+
+Parameter:decl IPAR :int = 32;
+Parameter:init IPAR :int = 16;
+Parameter:decl IPAR :int = 32;
+Parameter:decl IPAR :int = 32;
+Parameter:decl IPAR :int = 32;
+
+Interface:bits BITS_MEM :IR[];
+Interface:bits BITS_MEM :IR[];
+Interface:bits BITS_MEM :IR[];
+Interface:bits BITS_MEM :IR[131; 33; 33];
+Interface:bits BITS_MEM :IR[131; 33; 33];
+Interface:bits BITS_MEM :IR[131; 33; 33];
+
+Constant :publ HEX :hex = 16;
+Constant :publ HEX :hex = 16;
+Constant :publ HEX :hex = 16;
+
+Symblist :publ LIST_INTERF_COML = {CIISIG; CIIREG; LOWVAL; HIGHVAL; CIIVAL; EXTSIG; EXTREG; CIIEXTSIG; CIIEXTREG};
+Symblist :publ LIST_INTERF_COML = {CIISIG; CIIREG; LOWVAL; HIGHVAL; CIIVAL; EXTSIG; EXTREG; CIIEXTSIG; CIIEXTREG};
+Symblist :publ LIST_INTERF_COML = {CIISIG; CIIREG; LOWVAL; HIGHVAL; CIIVAL; EXTSIG; EXTREG; CIIEXTSIG; CIIEXTREG};
+
+Function :publ FUNC_INTERF_COML_CII('arg) = ( 'arg==CIISYS.LIST_INTERF_COML|CIISIG    || 'arg==CIISYS.LIST_INTERF_COML|CIIREG 	|| 'arg==CIISYS.LIST_INTERF_COML|CIIEXTSIG || 'arg==CIISYS.LIST_INTERF_COML|CIIEXTREG);
+Function :publ FUNC_INTERF_COML_CII('arg) = ( 'arg==CIISYS.LIST_INTERF_COML|CIISIG    || 'arg==CIISYS.LIST_INTERF_COML|CIIREG  || 'arg==CIISYS.LIST_INTERF_COML|CIIEXTSIG || 'arg==CIISYS.LIST_INTERF_COML|CIIEXTREG);
+Function :publ FUNC_INTERF_COML_CII('arg) = ( 'arg==CIISYS.LIST_INTERF_COML|CIISIG    || 'arg==CIISYS.LIST_INTERF_COML|CIIREG  || 'arg==CIISYS.LIST_INTERF_COML|CIIEXTSIG || 'arg==CIISYS.LIST_INTERF_COML|CIIEXTREG);
+}

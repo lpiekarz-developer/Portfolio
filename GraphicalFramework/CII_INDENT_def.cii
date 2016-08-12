@@ -1,0 +1,8 @@
+Component:decl { CII_INDENT 
+
+Parameter:decl  :int = ;
+Parameter:decl  :int = ;
+Parameter:decl  :int = ;
+Parameter:decl  :int = ;
+
+}

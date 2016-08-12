@@ -1,0 +1,9 @@
+Component:decl { SiDef 
+
+Parameter:decl IPAR :int = 34;
+Parameter:decl IPAR :int = 34;
+Parameter:decl LPAR :log = TRUE;
+Interface:area AREA_MEM :IR[2];
+Interface:area AREA_MEM :IR[2; 3; 16];
+Interface:area AREA_MEM :IR[2; 3; 16];
+}

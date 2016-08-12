@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+<html lang="pl">
+
+	<head>
+		<title>£ukasz Piekarzewski Home Page</title>
+		<meta content="text/html; charset=UTF-8">
+		<!--meta author="LP"/>
+		
+		
+		<!script type="text/javascript" src="C:\Users\Lukasz\Desktop\jquery-1.10.2.js"></script>
+		<!script type="text/javascript" src="jquerytest.js"></script-->
+		<!--script type="text/javascript" src="home/lukasz/JavaScript/jquery-1.11.2.js"></script-->
+		<script type="text/javascript" src="../jquery-1.11.2.js"></script>
+		<script type="text/javascript" src="core.js"></script>
+		
+		<!-- EMBEDDED CSS
+		<style type="text/css">
+		h1{
+			color:red;
+		}
+		</style> -->
+		
+		<link href="style1.css" rel="stylesheet" type="text/css" />
+		
+		<script>
+			var Tester = {
+				init: function(){
+					alert("CONTENT IS READY");
+					//$('body').hide().fadeIn(6000);
+				}
+			};
+				
+			//Core.start(Tester);
+						
+			var Kor = {};
+			
+			if(document.addEventListener){
+				Kor.addEventListener = function(target, type, listener)
+				{target.addEventListener(type, listener, false);}
+			}
+			
+			
+			Kor.start = function(runnable){
+				Kor.addEventListener(window, "load", runnable.init);
+			};
+			
+			Kor.start(Tester);
+			
+			//TO NIE CHCE DZIALAC
+			/*var start = function(runnable){
+				addEventListener(window, "load", runnable.init);
+			};
+			
+			start(Tester);*/
+		</script>
+		<!--script> var x=5; </script>
+		<script> alert(x);</script-->
+		
+		<script>
+		$(function() {
+		  $('body').hide().fadeIn(6000);
+		});
+		</script>
+
+	</head>
+	
+	<body>
+		
+			<div id="naglowek">
+			<h1>Hello &poundukasz &amp; &copy; &trade; </h1>
+			</div>
+			
+			<blockquote cite="priorities.html">
+			<!-- <p style="color:red;font-weight:bold;"> EXAMPLE OF INLINE, MESSY CSS -->
+			<p>
+				<strong><em>"HTML, Dojo, JQuery, Yahoo!, UI, AJAX, Document Object Model, XSS, HTML, XHTML, Prototype, CSS!"</em></strong>
+			</p>
+			</blockquote>
+			
+				
+			<h1>DOS (Disk Operation System)</h1>
+			
+			<div id="lista" class="kolor_lista"> <!-- div nie mo¿e byæ wewn¹trz paragrafu-->
+			<p>
+			<ul>
+				<li>Jest dyskowym systemem operacyjnym</li>
+				przeznaczonym dla jednego u¿ytkownika, do 16-bitowych mikrokomputerów
+				wykorzystujacych procesory rodziny Intel 8086. Wygoda uzytkowania oraz zastosowanie
+				systemu, pod nazwa PC DOS dla komputerów IBM PC, zapewnily mu swego czasu duze
+				popularnosc. 
+				<li>Stworzono bogata biblioteke oprogramowania, dzialajacego pod nadzorem
+				systemu MS DOS.</li>
+				Obejmuje ona bogaty zestaw programów wspomagajacych prace biurowa,
+				projektowanie, kompilatory jezyków programowania itp. System ten wywodzi siê od systemu
+				o nazwie QDOS, opracowanego przez Seattle Computers - pionierska firme w dziedzinie
+				budowy i oprogramowania komputerów z procesorem Intel 8086. 
+				<!--<li>Kolejne wersje tego systemu</li> o nazwie 86 DOS zosta³y w 1981 roku zakupione przez firmê Microsoft i nazwane
+				MS DOS.-->
+			</ul>
+			</p>
+			</div>
+			
+			<div id="example_of_code">
+			<!-- <p> <pre></pre> <p> doesn't work -->
+				<pre>
+					<p>
+					*							*
+						*					*
+							*			*
+								*	*
+					</p>
+				</pre>
+			</div>
+		
+			<br>
+			
+			<div id="stopka"><p>by £ukasz <span class="nazwisko">Piekarzewski</span> Homepage</p></div>
+			
+			<br>
+			
+			
+			<h3>Contact me</h3>
+			<a href="mailto:lukasz.piekarzewski@gmail.com">lukasz.piekarzewski@gmail.com</a>
+			
+			<h3>Moje priorytety</h3>
+			<div id="next_page"> <!-- DEFINING SOME OF AREA -->
+				<p>Je¿eli chcesz wiedziec jakie mam priorytety na najblizsza przyszlosc klinknij <a href="priorities.html">link</a></p>
+			</div>
+					
+			<!--script class="jscode" type="text/javascript" src="jquerytest.js"></script-->
+	</body>
+	
+</html>
+

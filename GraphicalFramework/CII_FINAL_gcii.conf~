@@ -1,0 +1,77 @@
+C_Type:decl
+C_Name:CII_FINAL
+C_Values:[16;32]
+P_Type:decl
+P_Name:IPAR
+P_VType:int
+P_Value:32
+P_Type:init
+P_Name:IPAR
+P_VType:int
+P_Value:16
+P_Type:decl
+P_Name:IPAR
+P_VType:int
+P_Value:32
+P_Type:decl
+P_Name:IPAR
+P_VType:int
+P_Value:32
+P_Type:decl
+P_Name:IPAR
+P_VType:int
+P_Value:32
+I_Type:bits
+I_Name:BITS_MEM
+I_AccessRegMod:IR
+I_Value:
+I_Type:bits
+I_Name:BITS_MEM
+I_AccessRegMod:IR
+I_Value:
+I_Type:bits
+I_Name:BITS_MEM
+I_AccessRegMod:IR
+I_Value:
+I_Type:bits
+I_Name:BITS_MEM
+I_AccessRegMod:IR
+I_Value:131; 33; 33
+I_Type:bits
+I_Name:BITS_MEM
+I_AccessRegMod:IR
+I_Value:131; 33; 33
+I_Type:bits
+I_Name:BITS_MEM
+I_AccessRegMod:IR
+I_Value:131; 33; 33
+Con_Mode:publ
+Con_Name:HEX
+Con_VType:hex
+Con_Value16
+Con_Mode:publ
+Con_Name:HEX
+Con_VType:hex
+Con_Value16
+Con_Mode:publ
+Con_Name:HEX
+Con_VType:hex
+Con_Value16
+S_Mode:publ
+S_Name:LIST_INTERF_COML
+S_Value:CIISIG; CIIREG; LOWVAL; HIGHVAL; CIIVAL; EXTSIG; EXTREG; CIIEXTSIG; CIIEXTREG
+S_Mode:publ
+S_Name:LIST_INTERF_COML
+S_Value:CIISIG; CIIREG; LOWVAL; HIGHVAL; CIIVAL; EXTSIG; EXTREG; CIIEXTSIG; CIIEXTREG
+S_Mode:publ
+S_Name:LIST_INTERF_COML
+S_Value:CIISIG; CIIREG; LOWVAL; HIGHVAL; CIIVAL; EXTSIG; EXTREG; CIIEXTSIG; CIIEXTREG
+F_Mode:publ
+F_Name:FUNC_INTERF_COML_CII('arg)
+F_Value: 'arg==CIISYS.LIST_INTERF_COML|CIISIG    || 'arg==CIISYS.LIST_INTERF_COML|CIIREG 	|| 'arg==CIISYS.LIST_INTERF_COML|CIIEXTSIG || 'arg==CIISYS.LIST_INTERF_COML|CIIEXTREG
+F_Mode:publ
+F_Name:FUNC_INTERF_COML_CII('arg)
+F_Value: 'arg==CIISYS.LIST_INTERF_COML|CIISIG    || 'arg==CIISYS.LIST_INTERF_COML|CIIREG  || 'arg==CIISYS.LIST_INTERF_COML|CIIEXTSIG || 'arg==CIISYS.LIST_INTERF_COML|CIIEXTREG
+F_Mode:publ
+F_Name:FUNC_INTERF_COML_CII('arg)
+F_Value: 'arg==CIISYS.LIST_INTERF_COML|CIISIG    || 'arg==CIISYS.LIST_INTERF_COML|CIIREG  || 'arg==CIISYS.LIST_INTERF_COML|CIIEXTSIG || 'arg==CIISYS.LIST_INTERF_COML|CIIEXTREG

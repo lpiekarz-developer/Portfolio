@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="org.persistence.Employee" table="Employee">
+        <meta attribute="class-description">
+            This class contains Employee details
+            Id, Name, Surname, Birth Date, Position, Salary
+        </meta>
+        <id name="id" type="int" column="id">
+            <generator class="native"/>
+        </id>
+        <!-- property name="id" column="id" type="int"/-->
+        <property name="name" column="name" type="string"/>
+        <property name="surname" column="surname" type="string"/>
+        <property name="birthdate" column="birth_date" type="calendar_date"/>
+        <property name="position" column="position" type="string"/>
+        <property name="salary" column="salary" type="int"/>
+    </class>
+</hibernate-mapping>
