@@ -1,0 +1,54 @@
+ 
+<html>
+  <head>
+    <script>
+      alert("czesc");
+      /*
+	Nic nieznaczący napis spowoduje błąd. Dalsze instrukcje skryptu w danej sekcji znaczników będą pominięte.
+      
+	sds
+	alert("gg"); 	//instrukcja nie wykona się na skutek błędu jakim jest napis "sds", który nie ma 			  żadnego znaczenia dla interpretera JavaScript
+      
+      
+	GLOBAL = 3;	//mimo definicji funkcji i zmiennej poniżej. Ten kod zadziała poprawnie.
+			  Gdyby nie było przypisania GLOBAL = 3 w tym miejscu. To mimo deklaracji
+			  var GLOBAL = 5, funkcja askQuestion() wyświetli wartość 'undefined'.
+			  
+			// Słowo kluczowe var może służyć do deklaracji zmiennej lokalnej lub globalnej.
+			   Zmienna zadeklarowana bez "var" jest zawsze GLOBALNA.
+      	askQuestion();
+      	GLOBAL = 4;
+      
+	function askQuestion() {
+	  alert(GLOBAL);
+	}
+      
+	askQuestion();
+      	var GLOBAL = 5;
+      */
+      
+      var questions = [['How many moons the Earth has?', 1],
+		      ['In what year Isaac Newton was born?', 1642]];
+      
+      function askQuestion(question) {
+	var answer = prompt(question[0],'');
+	
+	if(answer == question[1]) {
+	  alert("Poprawna odpowiedź");
+	} else {
+	  alert("Niestety. Poprawna odpowiedź to" + question[1]);
+	}
+      }
+      
+      for(var i=0; i<questions.length; i++) {
+	askQuestion(questions[i]);
+      }
+      
+    </script>
+  </head>
+  <body>
+    <script>
+      alert("body");
+    </script>
+  </body>
+</html>
