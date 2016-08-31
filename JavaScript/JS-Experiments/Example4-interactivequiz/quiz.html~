@@ -34,9 +34,9 @@
 	var answer = prompt(question[0],'');
 	
 	if(answer == question[1]) {
-	  alert("Poprawna odpowiedź");
+	  alert("Correct answer!");
 	} else {
-	  alert("Niestety. Poprawna odpowiedź to" + question[1]);
+	  alert("Unfortunately, correct answer is: " + question[1]);
 	}
       }
       
